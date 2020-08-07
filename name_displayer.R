@@ -37,7 +37,7 @@ server= function(input, output) {
   })
   output$addition= renderText({input$n1+input$n2})
   output$subtraction= renderText({input$n1-input$n2})
-  output$multiplication= renderText({input$n1*input$n2})
+  output$multiplication= renderText({input$n1**input$n2})
   output$division= renderText({input$n1/input$n2})
   
 }
